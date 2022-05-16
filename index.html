@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>potions</title>
+    <script src="https://kit.fontawesome.com/450da6d904.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="function.js"></script>
+</head>
+<body>
+    <div class="cuerpo-1">
+        <div class="header">
+            <h1 draggable="true">Pociones <span draggable="true">categoria 1</span></h1>
+            <button style=" font-size: 30px;">pociones</button>
+            <button style=" font-size: 30px;">Joyas Magicas</button>
+            <button style=" font-size: 30px;">hechizos</button>
+        </div>
+        <div class="body">
+            
+            <div class="curacion-int">
+            <button class="curacion target" id="curacion" onclick="valor_1()" draggable="true"><br><br>Curacion</button>
+            <div class="curacion-shop" hidden id="c2" onclick="valor_esconde()" draggable="true">
+            <button class="curacion target" id="curacion2"><br><br>Curacion</button>
+            <h1>valor:<span>1.500$</span></h1>
+            </div>
+            </div>
+            <div class="veneno-int">
+                <button class="veneno target" id="veneno" onclick="valor_2()" draggable="true"><br><br>veneno</button>
+                <div class="veneno-shop" hidden id="v2" onclick="valor_esconde2()" draggable="true">
+                <button class="veneno target" id="veneno2"><br><br>veneno</button>
+                <h1>valor:<span>500$</span></h1>
+                </div>
+                </div>
+                <div class="aleatoria-int">
+                    <button class="aleatoria target" id="aleatoria" onclick="valor_3()" draggable="true"><br><br>aleatoria</button>
+                    <div class="aleatoria-shop" hidden id="a" onclick="valor_esconde3()" draggable="true">
+                    <button class="aleatoria target" id="a"><br><br>aleatoria</button>
+                    <h1>valor:<span>1.000$</span></h1>
+                    </div>
+                    </div>
+        </div>
+    </div>
+</body>
+</html>
